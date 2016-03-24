@@ -11,6 +11,7 @@ class DemoControllerSpec extends Specification {
 
     static doWithSpring = {
         helperService HelperService
+        anotherHelperService AnotherHelperService
     }
 
     void "test service injection"() {

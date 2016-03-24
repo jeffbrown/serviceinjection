@@ -2,8 +2,8 @@
 package demo
 
 class HelperService {
-
+    def anotherHelperService
     def getTheAnswer() {
-        42
+        anotherHelperService.theAnswer
     }
 }
